@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="content">
+        <div class="top">
+          <header>To-do List</header>
+          <form>
+            <div class="new-item add">
+              <span><img src="./imgs/edit.svg"></img></span>
+              <input
+                type="text"
+                id="add"
+                placeholder="Add new item"
+              />
+              <input type="submit" value="Add" id="submit" />
+            </div>
+          </form>
+        </div>
+        <div class="list-container">
+          <ul class="list" id="list">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
